@@ -23,16 +23,61 @@ Together they support hypothesis-driven bug investigation:
 
 Install one skill at a time with `skill-installer`, or install both in one run from the remote repository path that contains this product.
 
-Examples:
+Install `debug-diagnosis`:
 
-- `debug-diagnosis`
-- `debug-checkup`
+```text
+$skill-installer install https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-diagnosis
+```
+
+Install `debug-checkup`:
+
+```text
+$skill-installer install https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-checkup
+```
+
+Install both skills:
+
+```text
+$skill-installer install the skills from sablesoft/codex-debug at paths products/codex-debug/debug-diagnosis and products/codex-debug/debug-checkup
+```
 
 After installation, restart Codex so the newly installed skills are discovered.
 
 ## Updating
 
 If `skill-update` is installed, you can use it to update previously installed `codex-debug` skills through the standard reinstall workflow.
+
+Natural-language prompts:
+
+```text
+Use skill-update to update the installed debug-diagnosis skill from https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-diagnosis
+```
+
+```text
+Use skill-update to update the installed debug-checkup skill from https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-checkup
+```
+
+```text
+Use skill-update to update the installed debug-diagnosis and debug-checkup skills from the codex-debug repository paths:
+- products/codex-debug/debug-diagnosis
+- products/codex-debug/debug-checkup
+```
+
+`$skill-update` prompts:
+
+```text
+$skill-update update the installed debug-diagnosis skill from https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-diagnosis
+```
+
+```text
+$skill-update update the installed debug-checkup skill from https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-checkup
+```
+
+```text
+$skill-update update the installed debug-diagnosis and debug-checkup skills from the codex-debug repository paths:
+- products/codex-debug/debug-diagnosis
+- products/codex-debug/debug-checkup
+```
 
 ## Host Expectations
 
