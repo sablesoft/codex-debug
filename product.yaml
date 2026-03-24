@@ -1,0 +1,15 @@
+slug: codex-debug
+name: Codex Debug
+profile: toolkit
+purpose: Portable Codex toolkit for hypothesis-driven bug diagnosis and targeted runtime checkups in host code projects.
+scope: Multi-skill toolkit repository for installable Codex skills that diagnose code problems and verify runtime hypotheses through focused checkups.
+
+distribution:
+  model: skill-installer
+  root_skill_folders:
+    - debug-diagnosis
+    - debug-checkup
+
+host_integration:
+  temporary_root: tmp/codex-debug
+  install_target: $CODEX_HOME/skills

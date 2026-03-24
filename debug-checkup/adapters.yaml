@@ -1,0 +1,13 @@
+adapters:
+  - slug: php-xdebug
+    runtime_family: php
+    status: placeholder
+    executable: false
+    reason: Adapter contract exists, but runtime execution support is not implemented yet.
+    readme: adapters/php-xdebug/README.md
+  - slug: node-inspector
+    runtime_family: node
+    status: placeholder
+    executable: false
+    reason: Adapter contract exists, but runtime execution support is not implemented yet.
+    readme: adapters/node-inspector/README.md
