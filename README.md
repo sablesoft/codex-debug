@@ -14,6 +14,11 @@ Together they support hypothesis-driven bug investigation:
 - diagnose the likely cause first
 - run targeted runtime checkups only when reasoning alone is not enough
 
+## Skills
+
+- `debug-diagnosis` analyzes the reported bug, reads the relevant code and entrypoint context, and tries to produce either a direct diagnosis or a small set of concrete, checkable hypotheses. It should be used first whenever the root cause is not yet clear.
+- `debug-checkup` takes a diagnosis result, determines which runtime adapter would be needed to verify the remaining hypotheses, checks whether that adapter is currently available, and produces a clear report when runtime verification cannot proceed yet. It is the bridge between diagnosis and future adapter-driven runtime checks.
+
 ## Installation
 
 Install one skill at a time with `skill-installer`, or install both in one run from the remote repository path that contains this product.
