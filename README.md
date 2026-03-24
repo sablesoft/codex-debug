@@ -26,19 +26,19 @@ Install one skill at a time with `skill-installer`, or install both in one run f
 Install `debug-diagnosis`:
 
 ```text
-$skill-installer install https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-diagnosis
+$skill-installer install https://github.com/sablesoft/codex-debug/tree/main/debug-diagnosis
 ```
 
 Install `debug-checkup`:
 
 ```text
-$skill-installer install https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-checkup
+$skill-installer install https://github.com/sablesoft/codex-debug/tree/main/debug-checkup
 ```
 
 Install both skills:
 
 ```text
-$skill-installer install the skills from sablesoft/codex-debug at paths products/codex-debug/debug-diagnosis and products/codex-debug/debug-checkup
+$skill-installer install the skills from https://github.com/sablesoft/codex-debug/tree/main/debug-diagnosis and https://github.com/sablesoft/codex-debug/tree/main/debug-checkup
 ```
 
 After installation, restart Codex so the newly installed skills are discovered.
@@ -50,33 +50,33 @@ If `skill-update` is installed, you can use it to update previously installed `c
 Natural-language prompts:
 
 ```text
-Use skill-update to update the installed debug-diagnosis skill from https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-diagnosis
+Use skill-update to update the installed debug-diagnosis skill from https://github.com/sablesoft/codex-debug/tree/main/debug-diagnosis
 ```
 
 ```text
-Use skill-update to update the installed debug-checkup skill from https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-checkup
+Use skill-update to update the installed debug-checkup skill from https://github.com/sablesoft/codex-debug/tree/main/debug-checkup
 ```
 
 ```text
 Use skill-update to update the installed debug-diagnosis and debug-checkup skills from the codex-debug repository paths:
-- products/codex-debug/debug-diagnosis
-- products/codex-debug/debug-checkup
+- https://github.com/sablesoft/codex-debug/tree/main/debug-diagnosis
+- https://github.com/sablesoft/codex-debug/tree/main/debug-checkup
 ```
 
 `$skill-update` prompts:
 
 ```text
-$skill-update update the installed debug-diagnosis skill from https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-diagnosis
+$skill-update update the installed debug-diagnosis skill from https://github.com/sablesoft/codex-debug/tree/main/debug-diagnosis
 ```
 
 ```text
-$skill-update update the installed debug-checkup skill from https://github.com/sablesoft/codex-debug/tree/main/products/codex-debug/debug-checkup
+$skill-update update the installed debug-checkup skill from https://github.com/sablesoft/codex-debug/tree/main/debug-checkup
 ```
 
 ```text
 $skill-update update the installed debug-diagnosis and debug-checkup skills from the codex-debug repository paths:
-- products/codex-debug/debug-diagnosis
-- products/codex-debug/debug-checkup
+- https://github.com/sablesoft/codex-debug/tree/main/debug-diagnosis
+- https://github.com/sablesoft/codex-debug/tree/main/debug-checkup
 ```
 
 ## Host Expectations
